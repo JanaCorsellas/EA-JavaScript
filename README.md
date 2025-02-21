@@ -42,3 +42,10 @@ Ejecutar JS
 ```
 node main.js
 ```
+
+## Referències fonts usades
+
+[1] How to import and export in CommonJS 
+https://dev.to/lico/how-to-import-and-export-in-commonjs-and-es-modules-43m1
+
+[2] Copylot Visual Studio Code

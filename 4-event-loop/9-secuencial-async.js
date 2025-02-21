@@ -1,5 +1,11 @@
 console.log("Inicio");
 
+export {
+  getUser,
+  getPosts,
+  getComments,
+}
+
 // Función para obtener un usuario de una API
 function getUser(userId) {
   return fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
@@ -34,13 +40,11 @@ async function fetchOrderDetails() {
     const comments = await getComments(posts[0].id);
 
     console.log("Comentarios del primer post:", comments);
-    console.log("Fin");
+    //console.log("Fin");
   } catch (error) {
     console.error("Error:", error);
   }
 }
-
-console.log("Inicio");
 
 fetchOrderDetails();
 
